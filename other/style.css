@@ -1,3 +1,4 @@
+/*Made by Alexandros Drakoulis*/
 *{
     margin: 0px;
     padding: 0px;
@@ -12,6 +13,17 @@
 body{
 background-color: black;
 }
+
+
+@keyframes slideInFromLeft {
+0% {
+transform: translateX(-100%);
+}
+100% {
+transform: translateX(0);
+}
+}
+
 
 .backround{
     position: fixed;
@@ -28,6 +40,7 @@ background-color: black;
 }
 
 .content{
+    animation: 0.78s ease-out 0s 1 slideInFromLeft;
     font-size: 27px;
     left: 12%;
     top: 30% ;
@@ -72,3 +85,4 @@ a:hover{
     color: #468499;
     transition: 0.28s ease-in-out;
 }
+

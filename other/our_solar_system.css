@@ -1,3 +1,4 @@
+/*Made by Alexandros Drakoulis*/
 *{
     color: aliceblue;
     font-family: VT323;
@@ -73,7 +74,7 @@ a:hover{
 }
 
 iframe{
-    
+    animation: 2.2s ease-out 0s 1 slideInFromLeft;
     float: right;
     width: 600px;
     position: fixed;
@@ -98,5 +99,17 @@ iframe{
     font-size: 70px;
     position: absolute;
     top: 8%;
-    left: 6%;
+    left: 16%;
 }
+
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+    filter: brightness(0);
+    }
+    100% {
+    filter: brightness(1);
+    }
+    }
