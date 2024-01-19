@@ -1,3 +1,4 @@
+/*Made by Alexandros Drakoulis*/
 *{
     color: aliceblue;
     font-family: VT323;
@@ -98,5 +99,5 @@ iframe{
     font-size: 70px;
     position: absolute;
     top: 8%;
-    left: 6%;
+    left: 16%;
 }
