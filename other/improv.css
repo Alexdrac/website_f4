@@ -23,10 +23,10 @@ min-height: 100%;
     min-height: 100vh;
     background-size: cover; /* This property ensures the background image covers the whole element */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-image: url(/images/2704599.jpg); 
+    background-image: url(/images/mon.png); 
     z-index: -2;
     background-position: center center; /* Centers the background image horizontally and vertically */
-    filter: blur(3px);
+    filter: blur(6px);
 }
 
 .content{
