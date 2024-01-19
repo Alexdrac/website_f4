@@ -154,3 +154,11 @@ h2{
     height: auto;
 }
 
+
+.logo
+{
+    font-size: 45px;
+    left: 5rem;
+    color: white;
+    position: absolute;
+}

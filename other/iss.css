@@ -145,3 +145,11 @@ a:hover{
 .slider-nav a:hover{
     opacity: 1;
 }
+
+.logo
+{
+    font-size: 45px;
+    left: 5rem;
+    color: white;
+    position: absolute;
+}

@@ -113,3 +113,12 @@ iframe{
     filter: brightness(1);
     }
     }
+
+
+    .logo
+    {
+        font-size: 45px;
+        left: 5rem;
+        color: white;
+        position: absolute;
+    }
